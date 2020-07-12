@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      body {
+        background-image: url("images/worn-leather.jpg");
+      }
+    </style>
+    <title>Portfolio of Emily Wylie</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    rel="stylesheet"
+    type="text/css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+      <header>
+          <h1>Emily Wylie</h1>
+          <nav>
+            <ul id="menu">
+            <li><a href="#summary">Intro</a></li>
+            <li><a href="#about-me">More About Me</a></li>
+            <li><a href="#projects">My Projects</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+          </nav>
+      </header>
+      
+      
+      <main>
+<!-- larger photo of Austin and me?? with paragraph beside me giving an intro -->
+        <section id="summary">
+            <div class="group">
+            <div class="half">
+                <img src="images/Portfolio2.jpg" alt="Photo of Emily Wylie"/>
+            </div>
+
+            <div class="half">
+                <h2>Howdy!</h2>
+                <p>My name is Emily Wylie. I'm from Austin, Texas. My life keeps me busy, but I love a good challenge! 
+                    There is always something to learn as a: </p>
+            <ol>
+                <li>Thinkful Student,</li>
+                <li>Full-time Employee, and</li>
+                <li>Happy Wife and Mother.</li>
+            </ol>
+            </div>
+            </div>
+        </section>
+        <hr>
+<!-- about me and computers -- words and image of something techy  and then something personal and image to reflect that as well.-->
+        <section id="about-me">
+            <h2>More About Me</h2>
+            <div class="group">
+            <div class= "half">
+                <p>I graduated from Texas A & M University with a BA in International Studies and English.
+                    I currently work full-time in the insurance world.</p> 
+                    <p>One of my favorite things about any kind of work
+                    opportunity is getting to work on a team that is always striving for improvement through innovations
+                    and ideas. I love the creativity that comes from working with peers and mentors, which always has me 
+                    thinking outside the box. </p>
+                    <p>I have been interested in learning about computers and coding for a long time. 
+                      <a href="https://www.thinkful.com/" target="\_blank">Thinkful</a> has offered me the opportunity to dive into web development. My interest and
+                    passion grows with each lesson successfully completed. I love knowing that I will never be bored and never be done learning. </p>
+                    <p>I love a good puzzle and a few tough problems or mysteries to solve! I always love learning something new, 
+                        whether it's a new recipe or ingredient or trying out a new crafting skill. And I would never turn down the 
+                      opportunity to relax with good friends and family over a cup of coffee or a margarita!</p>
+                      <p>I am excited to put my growing skills to use in web development.</p>
+            </div>
+            </div>
+        </section>
+        <hr>
+<!-- photo 1/3rd of project w. 2/3rds being bullet pointed list of details. -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="group">
+            <div class="one-third">
+                <img src="images/project-graphic1.jpg" alt="Project 1 placeholder"/>
+            </div>
+            <div class="two-thirds">
+                <ul>
+                    <li>Project Title</li>
+                    <li>Project Description</li>
+                    <li>View Project</li>
+                </ul>
+            </div>
+            <div class="one-third">
+                <img src="images/project-graphic1.jpg" alt="Project 2 placeholder"/>
+            </div>
+            <div class="two-thirds">
+                <ul>
+                    <li>Project Title</li>
+                    <li>Project Description</li>
+                    <li>View Project</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="group">
+            <div class="one-third">
+                <img src="images/project-graphic1.jpg" alt="Project 3 placeholder"/>
+            </div>
+            <div class="two-thirds">
+                <ul>
+                    <li>Project Title</li>
+                    <li>Project Description</li>
+                    <li>View Project</li>
+                </ul>
+            </div>
+            <div class="one-third">
+                <img src="images/project-graphic1.jpg" alt="Project 4 placeholder"/>
+            </div>
+            <div class="two-thirds">
+                <ul>
+                    <li>Project Title</li>
+                    <li>Project Description</li>
+                    <li>View Project</li>
+                </ul>
+            </div>
+
+            </div>
+        </section>
+        <hr>
+<!-- half is a contact me snippet and the other half is the icon and links -->
+        <section id="contact-me">
+            <h2>Contact Me</h2>
+            <div class="group">
+            <div class="half">
+                <p>I would love to hear from you!</p>
+                <p>I can be found in several places. My contact information is on this page, or you are welcome to submit a message to me using the form below. </p>
+                
+            </div>
+            <div class="half">
+                <ul>
+                    <li><a href="mailto:emilyawylie@outlook.com"><i class="glyphicon glyphicon-envelope"></i> email</a></li>
+                    <li><a href="https://www.linkedin.com/in/emily-wylie-0b1b31122/"><i class="glyphicon glyphicon-user"></i> LinkedIn</a></li>
+                    <li><a href="https://github.com/EmilyWylie" target="\_blank"><i class="glyphicon glyphicon-user"></i> GitHub account</a></li>
+                 </ul>
+            </div>
+            </div>
+            <div class="group">
+                <div class="half">
+                    <form action="https://formspree.io/emilyawylie@outlook.com" method="post">
+                        <label for="name">Your name:</label>
+                        <input id="name" type="text" name="sendername" required autofocus:"on">
+                        <label for="email">Your email:</label>
+                        <input id="email" type="text" name="senderemail" required>
+                        <label for="message">Your message:</label>
+                        <textarea id="message" name="form-message" maxlength="400"></textarea>
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+
+      </main>
+  </body>

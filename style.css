@@ -1,0 +1,168 @@
+* { 
+    box-sizing: border-box;
+}
+
+header {
+  background-color: #284B63;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+header h1 {
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  padding-top: 70px;
+    }
+
+header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+header nav ul {
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  margin: 0 20px 0 0;
+}
+
+header nav ul li:last-child a {
+  margin-right: 0;
+}
+
+
+/*effects on the links*/
+a:link {
+    color: #f4f81f;
+}
+
+a:visited {
+    color: #31dd2b;
+}
+
+a:hover {
+    color: #02273f;
+}
+
+a:active {
+    color: #740c0c;
+}
+
+/* horizontal page breaks*/
+hr {
+    border: 3px solid #284b63; 
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* header/title of the website page*/
+h1 {
+    color: #ffffff;
+    text-align: center; 
+    margin-bottom: 70px;
+    font-size: 100px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 4px;
+    line-height: 3px;
+}
+
+h2 {
+    color:  #ffffff;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+/*centering all text on the page below the main photo */
+ul, ol {
+    color: #ffffff;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-position: inside;
+    
+}
+
+p {
+    color: #ffffff;
+    text-align: center;       
+}
+
+/* placement of the main photo */
+img {
+    display: flex;
+    width: 100%;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    object-fit: scale-down;
+  }
+  
+    menu {
+      border: solid #ffffff; 
+      border-radius: 25%;
+      margin: 12px;
+      padding: 5px;
+      }
+
+    .group {
+        display: flex;
+        padding: 25px;
+        margin-right: 200px;
+        flex-direction: column;
+        object-fit: scale-down;
+
+     }
+
+    .half {
+        flex: 1;
+    }
+
+    .one-third {
+        flex: 2;     
+    }
+
+    .two-thirds {
+        flex: 2; 
+    }
+
+    form label {
+        display: block; 
+        padding-left: 75px; 
+        font-size: 18px; 
+        margin-bottom: 5px; 
+        margin-top: 25px;
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    form input {
+        padding-left: 150px;
+        font-size: 14px;
+    }
+
+    form textarea {
+        display: block;
+        height: 8rem; 
+        width: 50%;
+        font-size: 14px; 
+
+    }
+
+      @media all and (min-width: 800px) {
+          .group {
+              flex-direction: row;
+          }
+          header {
+              flex-direction: row;
+          }
+      }
